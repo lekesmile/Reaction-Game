@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fi">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Reaktiopeli</title>
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <main id="main">
+    <h1> Reaction Game</h1>
+    <button id="startgame" type="button" name="button">Start Game</button>
+    <div class="tulostimer">
+      <div id="tulos-container">Score: <span id="tulos">0</span></div>
+      <div id="timer-container">Timer:<span id="timer"> 00:00:00</span></div>
+    </div>
+    <div id="nappula-container">
+      <div class="nappula" id="nappula0">A</div>
+      <div class="nappula" id="nappula1">B</div>
+      <div class="nappula" id="nappula2">C</div>
+      <div class="nappula" id="nappula3">D</div>
+    </div>
+
+    <div id="overlay">
+      <div id="gameover">
+      </div>
+    </div>
+  </main>
+
+  <!-- <footer>Completed by Leke </footer> -->
+  <script src="javascript/reaktio.js"></script>
+</body>
+
+</html>
